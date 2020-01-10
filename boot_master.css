@@ -1,0 +1,108 @@
+body{
+  /* background: url(Pictures/Original/North_Bush_HW_Mesa_AZ.jpg); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-color: #cccccc; */
+  background-color: #e1f0fc;
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  /* font-family: 'Iceland', cursive; */
+  /* font-family: 'Fugaz One', cursive; */
+}
+
+/* .row{
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+
+#jumbvideo{
+  position: relative;
+  margin-top: 100px;
+  background-color: white;
+  color: white;
+  /* height: 100vh; */
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+#jumbvideo video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100vw;
+  height: 56vw;
+  z-index: 0;
+  /* -ms-transform: translateX(-50%) translateY(-50%); */
+  /* -moz-transform: translateX(-50%) translateY(-50%); */
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#jumbvideo .container {
+  position: relative;
+  z-index: 2;
+}
+
+#jumbvideo .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.thumbnail{
+  color: #22c0f0;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  /* font-family: 'Racing Sans One', cursive; */
+  /* font-family: 'Faster One', cursive; */
+  font-family: 'Iceland', cursive;
+}
+
+#jumblogin{
+  background-size: cover;
+  margin-top: 100px;
+  background-color: white;
+  color: white;
+}
+
+#ecars_title{
+  color: #1c5cd4;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  /* font-family: 'Racing Sans One', cursive; */
+  font-family: 'Iceland', cursive;
+}
+
+#picture_title{
+  color: #1c5cd4;
+  margin-top: 80px;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  /* font-family: 'Racing Sans One', cursive; */
+  font-family: 'Iceland', cursive;
+}
+
+ul, a {
+  color: #fffb03;
+  /* color: #0b298c; */
+}
+
+nav{
+  background-image: url(Pictures/B_Wonderspaces.jpg);
+  background-size: cover;
+  color: #ccdeff;
+}
