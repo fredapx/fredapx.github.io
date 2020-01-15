@@ -28,53 +28,46 @@
       <ul class="nav navbar-nav">
         <li><a href="boot_project_electric.html">Electrics</a></li>
         <li><a href="boot_project_hybrid.html">Hybrids</a></li>
-        <!-- <li><a href="boot_project_Video.html">Videos</a></li> -->
         <li><a href="boot_project_login.html">Log In</a></li>
       </ul>
 
     </nav>
 
-    <div class="container">
+    <div class="jumbotron jumbotron-fluid">
 
-      <div id="jumbvideo" class="jumbotron">
+      <video id="jumbvideo" autoplay muted loop>
+        <source src="Videos\Porsche_Mission_E_Trim.mp4" type="video/mp4">
+      </video>
 
-        <div class="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="Videos\Porsche_Mission_E_Trim.mp4" type="video/mp4">
-        </video>
+      <div class="container">
+        <h1>Dale's Electric Cars Project</h1>
+        <h4>Welcome e-cars lovers</h4>
+        <h4>This page and the additional pages were created with Bootstrap</h4>
+        <h4>Everything you need to know about e-cars:</h4>
+        <ol>
+          <li>Are e-cars better than gas cars?</li>
+          <li>What is the difference between electric and hybrid?</li>
+          <li>Do you need an e-car?</li>
+          <li>How to choose your e-car</li>
+          <li>Some links to my favorite e-cars:
+          <ul>
+            <li><a href="https://www.porsche.com/usa/aboutporsche/christophorusmagazine/archive/374/articleoverview/article01/">Porsche Mission E</a></li>
+            <li><a href="https://www.peugeot.co.uk/concept-cars/e-legend/">e-Legend</a></li>
+            <li><a href="https://www.tesla.com/roadster">Tesla roadster 2020</a></li>
+            <li><a href="https://www.tesla.com/modelx">Tesla Model X</a></li>
+            <li><a href="https://www.tesla.com/models">Tesla Model S</a></li>
+            <li><a href="https://www.vw.com/electric-concepts/section/id-buzz/">VW I.D. Buzz</a></li>
+            <li><a href="https://www.tesla.com/cybertruck">Tesla CyberTruck</a></li></li>
+            <li><a href="https://www.tesla.com/modely">Tesla Model Y</a></li></li>
+          </ul>
+          </li>
+          <li>How to recycle batteries?</li>
+        </ol>
 
-        <div class="container h-100">
-          <div class="d-flex h-100">
-            <div class="w-100">
-              <h1>Dale's Electric Cars Project</h1>
-              <h4>Welcome e-cars lovers</h4>
-              <h4>This page and the additional pages were created with Bootstrap</h4>
-              <h4>Everything you need to know about e-cars:</h4>
-              <ol>
-                <li>Are e-cars better than gas cars?</li>
-                <li>What is the difference between electric and hybrid?</li>
-                <li>Do you need an e-car?</li>
-                <li>How to choose your e-car</li>
-                <li>Some links to my favorite e-cars:
-                <ul>
-                  <li><a href="https://www.porsche.com/usa/aboutporsche/christophorusmagazine/archive/374/articleoverview/article01/">Porsche Mission E</a></li>
-                  <li><a href="https://www.peugeot.co.uk/concept-cars/e-legend/">e-Legend</a></li>
-                  <li><a href="https://www.tesla.com/roadster">Tesla roadster 2020</a></li>
-                  <li><a href="https://www.tesla.com/modelx">Tesla Model X</a></li>
-                  <li><a href="https://www.tesla.com/models">Tesla Model S</a></li>
-                  <li><a href="https://www.vw.com/electric-concepts/section/id-buzz/">VW I.D. Buzz</a></li>
-                  <li><a href="https://www.tesla.com/cybertruck">Tesla CyberTruck</a></li></li>
-                  <li><a href="https://www.tesla.com/modely">Tesla Model Y</a></li></li>
-                </ul>
-                </li>
-                <li>How to recycle batteries?</li>
-              </ol>
-              <h4>More content coming soon!!</h4>
-            </div> <!-- container h-100 -->
-          </div> <!-- d-flex -->
-        </div> <!-- w-100 -->
-      </div> <!-- jumbotron -->
-    </div> <!-- jumbotron container -->
+        <h4>More content coming soon!!</h4>
+
+      </div> <!-- container -->
+    </div> <!-- jumbotron -->
 
     <div class="container">
 
@@ -93,19 +86,19 @@
                 <a href="Pictures\c_Porsche.jpg">
                   <img src="Pictures\c_Porsche.jpg" alt="Image not available...">
                 </a>
-                <div class="caption">Porsche Mission E</div>
+                <div id="myCaption" class="caption">Porsche Mission E</div>
           </div>
           <div class="col-xs-6 col-md-4 thumbnail">
                 <a href="Pictures\c_Citroën_Survolt.jpg">
                   <img src="Pictures\c_Citroën_Survolt.jpg" alt="Image not available...">
                 </a>
-                <div class="caption">Citroen Survolt</div>
+                <div id="myCaption" class="caption">Citroen Survolt</div>
           </div>
           <div class="col-xs-6 col-md-4 thumbnail">
                 <a href="Pictures\c_Peugeot_e-Legend.jpg">
                   <img src="Pictures\c_Peugeot_e-Legend.jpg" alt="Image not available...">
                 </a>
-                <div class="caption">Peugeot e-Legend</div>
+                <div id="myCaption" class="caption">Peugeot e-Legend</div>
           </div>
       </div> <!-- ROW #1 -->
 
@@ -114,19 +107,19 @@
                 <a href="Pictures\c_Renault_DeZir.jpg">
                   <img src="Pictures\c_Renault_DeZir.jpg" alt="Image not available...">
                 </a>
-                <div class="caption">Renault DeZir</div>
+                <div id="myCaption" class="caption">Renault DeZir</div>
           </div>
           <div class="col-xs-6 col-md-4 thumbnail">
                 <a href="Pictures\c_Honda_Urban_EV.jpg">
                   <img src="Pictures\c_Honda_Urban_EV.jpg" alt="Image not available...">
                 </a>
-                <div class="caption">Honda Urban EV</div>
+                <div id="myCaption" class="caption">Honda Urban EV</div>
           </div>
           <div class="col-xs-6 col-md-4 thumbnail">
                 <a href="Pictures\c_VW_BUZZ.jpg">
                   <img src="Pictures\c_VW_BUZZ.jpg" alt="Image not available...">
                 </a>
-                <div class="caption">Volkswagen ID.Buzz</div>
+                <div id="myCaption" class="caption">Volkswagen ID.Buzz</div>
           </div>
       </div> <!-- ROW #2 -->
 
