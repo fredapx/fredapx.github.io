@@ -12,61 +12,39 @@ body{
   /* font-family: 'Fugaz One', cursive; */
 }
 
-/* .row{
-    margin-left: 5px;
-    margin-right: 5px;
-} */
-
-#jumbvideo{
-  position: relative;
-  margin-top: 100px;
-  background-color: white;
+nav {
+  background-image: url(Pictures/B_Wonderspaces.jpg);
+  background-size: cover;
   color: white;
-  /* height: 100vh; */
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
 }
 
-#jumbvideo video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: 100vw;
-  height: 56vw;
-  z-index: 0;
-  /* -ms-transform: translateX(-50%) translateY(-50%); */
-  /* -moz-transform: translateX(-50%) translateY(-50%); */
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-#jumbvideo .container {
+.jumbotron {
   position: relative;
-  z-index: 2;
+  margin-top: 50px;
+  overflow: hidden;
+  background-color: white;
 }
-
-#jumbvideo .overlay {
+.jumbotron video {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #0398fc;
-  opacity: 0.3;
   z-index: 1;
+  top: 0;
+  width:100%;
+  height:100%;
+  /*  object-fit is not supported on IE  */
+  object-fit: cover;
+  opacity: 0.3;
+}
+.jumbotron .container {
+  z-index: 2;
+  position: relative;
 }
 
-.thumbnail{
-  color: #22c0f0;
+#myCaption{
+  color: #1c5cd4;
   font-size: 1em;
   font-style: italic;
   font-weight: bold;
   text-align: center;
-  /* font-family: 'Racing Sans One', cursive; */
-  /* font-family: 'Faster One', cursive; */
   font-family: 'Iceland', cursive;
 }
 
@@ -97,13 +75,5 @@ body{
 }
 
 ul, a {
-  color: #fffb03;
-  /* color: #0b298c; */
-}
-
-nav{
-  background-image: url(Pictures/B_Wonderspaces.jpg);
-  background-size: cover;
-  /* color: white; */
-  /* color: #ccdeff; */
+  color: #1c5cd4;
 }
